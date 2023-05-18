@@ -28,7 +28,7 @@ def get_all_functions(module):
 
 def get_openai_completion(prompt):
     response = openai.Completion.create(
-                model="code-davinci-002",
+                model="text-davinci-003",
                 prompt=prompt,
                 temperature=0,
                 max_tokens=256,
